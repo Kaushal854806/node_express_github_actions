@@ -25,6 +25,11 @@ app.get('/admin', (req, res) => {
   res.send('Admin Homepage')
 })
 
+//http://localhost:3000/c0854806
+app.get('/c0854806', (req, res) => {
+  res.send('c0854806 - Kaushal, Class activity 2 completed successfully')
+})
+
 //http://localhost:3000/user/100
 app.get("/user/:id", (req, res)=> {
       res.send(`User ID: ${req.params.id}`);
